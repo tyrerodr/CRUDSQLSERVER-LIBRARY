@@ -1,6 +1,3 @@
-# @autor: Magno Efren
-# https://www.youtube.com/c/MagnoEfren
-
 import sys
 from VENTANAS.GUIPedido import * 
 from DAO.PedidoDAO import *

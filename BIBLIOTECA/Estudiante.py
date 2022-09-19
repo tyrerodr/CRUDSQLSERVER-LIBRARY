@@ -1,6 +1,3 @@
-# @autor: Magno Efren
-# https://www.youtube.com/c/MagnoEfren
-
 import sys
 from VENTANAS.GUIEstudiante import * 
 from DAO.EstudianteDAO import *
