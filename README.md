@@ -1,22 +1,23 @@
+#CRUDSQLSERVER-LIBRARY
 Introducción
 
-Proyecto Biblioteca – proyecto CRUD desarrollado en Python con Librería PYQT5, Las ventanas o GUI diseñadas con Designer, Base de datos creada en SQL SERVER.
+Project Library - CRUD project developed in Python with PYQT5 Library, Windows or GUI designed with Designer, Database created in SQL SERVER.
 
-Arquitectura del Proyecto	
+Project Architecture	
 
 CLASESDAO
-Carpeta donde se guardará todos los archivos .py de las clases de la capa de datos
+Folder where all the .py files of the data layer classes will be stored.
  
-VENTANAS
-Carpeta donde se guardará todos los archivos .ui y .py generados con la librería PYQT5.
+WINDOWS
+Folder where all the .ui and .py files generated with the PYQT5 library will be stored.
  
-BASE DE DATOS
-Carpeta donde se guardará el script/modelo lógico .sql de la base de datos y el diagrama de clases.
+DATABASE
+Folder where the database script/logical model .sql and the class diagram will be saved.
  
-BIBLIOTECA
-Carpeta donde se guardará el código en Python de cada clase desarrollada.
+LIBRARY
+Folder where the Python code of each developed class will be stored.
 
-Modelo lógico de la base de datos
+Logical model of the database
 
 ```
 USE [master]
@@ -264,16 +265,14 @@ ALTER DATABASE [Biblioteca] SET  READ_WRITE
 GO
 ```
 
-Ejecución
+Execution
 
-1. Instalar librerías PYQT5.
+1. Install the PYQT5 libraries.
  
-2. Ejecutar el comando “py Biblioteca.py” (El py varía según la variable de entorno)
+2. Execute the command "py Library.py" (The py varies depending on the environment variable).
 
-3. Listo! 
+3. Done. 
  
-4. Ejecución de ventanas varias
+4. Execution of several windows
  
-6. Evidencia del funcionamiento hora-día
-
- 
+6. Evidence of time-of-day operation 
