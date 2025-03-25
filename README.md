@@ -1,23 +1,34 @@
-# CRUDSQLSERVER-LIBRARY
-Introducción
+# Library CRUD Project
 
-Project Library - CRUD project developed in Python with PYQT5 Library, Windows or GUI designed with Designer, Database created in SQL SERVER.
+## Introduction
 
-Project Architecture	
+The **Library CRUD Project** is a Python-based application developed using the **PYQT5** library for building graphical user interfaces (GUI). The project incorporates a **SQL Server** database for data management, providing a seamless interaction between the user interface and the database. This system allows users to perform Create, Read, Update, and Delete (CRUD) operations on different entities related to a library system, such as books, materials, users, and more.
 
-CLASESDAO
-Folder where all the .py files of the data layer classes will be stored.
- 
-WINDOWS
-Folder where all the .ui and .py files generated with the PYQT5 library will be stored.
- 
-DATABASE
-Folder where the database script/logical model .sql and the class diagram will be saved.
- 
-LIBRARY
-Folder where the Python code of each developed class will be stored.
+The project includes a user-friendly GUI designed with **Designer** and connects to a **SQL Server** database for persistent data storage. This makes the system robust, efficient, and scalable.
 
-Logical model of the database
+---
+
+## Project Architecture
+
+The project is organized into several key directories and components to ensure modularity and ease of use:
+
+### 1. **CLASSESDAO**
+This folder contains all the `.py` files for the data layer classes, which manage the interaction between the application and the database.
+
+### 2. **WINDOWS**
+This folder holds all the `.ui` and `.py` files generated with the **PYQT5** library. These files represent the different windows of the application.
+
+### 3. **DATABASE**
+This folder stores the database script/logic model `.sql` and the class diagram for the project. It also includes the SQL script required to create the database structure and tables.
+
+### 4. **LIBRARY**
+This folder contains the Python code for each developed class, which manages specific functionalities in the application.
+
+---
+
+## Logical Model of the Database
+
+Below is the SQL script to create the database **Biblioteca** along with its tables:
 
 ```
 USE [master]
@@ -264,8 +275,9 @@ GO
 ALTER DATABASE [Biblioteca] SET  READ_WRITE 
 GO
 ```
+---
 
-Execution
+## Execution
 
 1. Install the PYQT5 libraries.
  
